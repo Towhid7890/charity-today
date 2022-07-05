@@ -1,0 +1,253 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+
+}
+
+h1,
+h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.top-section {
+    background-image: url(./images//images/donation4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 550px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 550px;
+}
+
+.top-body {
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+
+.donate-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.money-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.money-div {
+    width: 140px;
+    height: 125px;
+    background-color: #f0efef;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.exception-div {
+    width: 140px;
+    height: 125px;
+    background-color: #fac5c5;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #FF5959;
+    padding: 10px 0px;
+}
+
+.input-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.input-head {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    outline: none;
+
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 16px;
+}
+
+.donate-plan {
+    text-align: center;
+
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.food-section {
+    height: 302px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #EDF5F6;
+    margin-right: 20px;
+    padding: 40px 15px;
+
+}
+
+.shelter-section {
+    height: 302px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    margin-right: 20px;
+    padding: 40px 15px;
+
+}
+
+.education-section {
+    height: 302px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #FFF4D6;
+    margin-right: 20px;
+    padding: 40px 15px;
+
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.donate-btn {
+    background-color: tomato;
+    border: none;
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer-section h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(228, 103, 20);
+}
+
+.update {
+    padding: 50px 0px;
+}
+
+.update-section {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.subscribe-section {
+    width: 80%;
+    background-color: #FFF4D6;
+    height: 200px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.inputField {
+    width: 380px;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: tomato;
+    height: 50px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.flexible {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.testimonial-header {
+    text-align: center;
+}
+
+.testimonial-body {
+    width: 40%;
+    border: 1px solid lightgrey;
+    padding: 40px 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+}
+
+.testimonial-body img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-body p {
+    font-style: italic;
+}
+
+.reviewer {
+    display: flex;
+}
+
+.blog-section {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.blog-div {
+    width: 30%;
+    margin-right: 15px;
+    text-align: center;
+    border: 1px solid lightblue;
+    padding-bottom: 50px;
+}
+
+.blog-div img {
+    width: 100%;
+
+}
+
+.blog-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.read-more {
+    background-color: #0c9cf0;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
